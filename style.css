@@ -1,0 +1,305 @@
+body {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0;
+  color: gold;
+}
+
+.dark-theme {
+  background-color: black;
+  color: gold;
+}
+
+.light-theme {
+  background-color: gold;
+  color: black;
+}
+
+button {
+  ...
+}
+
+#theme-toggle {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  background-color: gold;
+  color: black;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+
+
+h1, h2, h3, a, address, #outputMessage {
+  color: inherit; /* Ensures text color inherits from body */
+}
+
+a {
+  text-decoration: none;  /* Removes underline from links */
+  font-family: 'Hack', sans-serif; /* Ensures consistency in font */
+  font-size: 14px; /* Sets font size */
+}
+
+h1 {
+  background-color: gold; /* Single background color */
+  color: black; /* Color for dark theme */
+  width: 100%; /* Make header full width */
+  text-align: center; /* Center text horizontally */
+  padding: 10px;
+  display: flex;
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  box-sizing: border-box; /* Ensure padding and border are included in total width and height */
+}
+
+body.light-theme h1 {
+  background-color: black; /* Inverted background color */
+  color: gold; /* Inverted text color */
+}
+
+button {
+  color: gold; /* Text color for buttons */
+  background-color: black; /* Background color for buttons */
+  transition: background 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: gold;
+  color: black;
+}
+
+body.light-theme button {
+  background-color: gold; /* Inverted background color */
+  color: black; /* Inverted text color */
+}
+
+body.light-theme button:hover {
+  background-color: black; /* Hover color inverts */
+  color: gold;
+}
+
+#theme-toggle {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  background-color: gold;
+  color: black;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+
+#theme-toggle:hover {
+  background-color: darkgoldenrod;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+textarea {
+  width: 200px;
+  height: 50px;
+}
+
+h1 img {
+  margin-right: 10px; /* Adds spacing between the image and the text */
+}
+
+.link-container {
+  display: flex;
+  flex-direction: column; /* Stack links vertically */
+  gap: 10px;
+  align-items: center; /* Center-align links */
+}
+
+.link-container a {
+  display: flex;
+  align-items: center;
+}
+
+.link-container img, 
+.link-container span {
+  margin-left: 8px;
+}
+
+@media (max-width: 600px) {
+  .container {
+    width: 90%;
+  }
+
+  textarea, input {
+    width: 90%;
+  }
+
+  #theme-toggle {
+    top: 20px;
+    right: 20px;
+    padding: 5px;
+  }
+}
+
+h1 img {
+  margin-right: 10px; /* Adds spacing between the image and the text */
+}
+
+.link-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+}
+
+.link-container a {
+  display: flex;
+  align-items: center;
+}
+
+.link-container img, 
+.link-container span {
+  margin-left: 8px;
+}
+#scrambledWord {
+  color: gold;
+}
+
+#scrambledWord {
+  color: gold;
+  font-size: 24px; /* Increase the font size */
+}
+
+body {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0;
+  color: gold;
+}
+
+body.dark-theme {
+  background-color: black;
+  color: gold;
+}
+
+body.light-theme {
+  background-color: gold;
+  color: black;
+}
+
+h1, h2, h3, a, address, #outputMessage {
+  color: inherit; /* Ensures text color inherits from body */
+}
+
+a {
+  text-decoration: none;  /* Removes underline from links */
+  font-family: 'Hack', sans-serif; /* Ensures consistency in font */
+  font-size: 14px; /* Sets font size */
+}
+
+h1 {
+  background-color: gold; /* Single background color */
+  color: black; /* Color for dark theme */
+  width: 100%; /* Make header full width */
+  text-align: center; /* Center text horizontally */
+  padding: 10px;
+  display: flex;
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  box-sizing: border-box; /* Ensure padding and border are included in total width and height */
+}
+
+body.light-theme h1 {
+  background-color: black; /* Inverted background color */
+  color: gold; /* Inverted text color */
+}
+
+button {
+  color: gold; /* Text color for buttons */
+  background-color: black; /* Background color for buttons */
+  transition: background 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: gold;
+  color: black;
+}
+
+body.light-theme button {
+  background-color: gold; /* Inverted background color */
+  color: black; /* Inverted text color */
+}
+
+body.light-theme button:hover {
+  background-color: black; /* Hover color inverts */
+  color: gold;
+}
+
+#theme-toggle {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  background-color: gold;
+  color: black;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+
+#theme-toggle:hover {
+  background-color: darkgoldenrod;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+textarea {
+  width: 200px;
+  height: 50px;
+}
+
+h1 img {
+  margin-right: 10px; /* Adds spacing between the image and the text */
+}
+
+.link-container {
+  display: flex;
+  flex-direction: column; /* Stack links vertically */
+  gap: 10px;
+  align-items: center; /* Center-align links */
+}
+
+.link-container a {
+  display: flex;
+  align-items: center;
+}
+
+.link-container img, 
+.link-container span {
+  margin-left: 8px;
+}
+
+@media (max-width: 600px) {
+  .container {
+    width: 90%;
+  }
+
+  textarea, input {
+    width: 90%;
+  }
