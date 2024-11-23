@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Phoer20</title>
+    <button id="theme-toggle">Toggle Theme</button>
+
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="https://ugc.production.linktr.ee/a25dca64-108f-4ddf-bb81-85c483d6aace_466669763-1292571948413165-1755381127578541446-n.jpeg?io=true&size=avatar-v3_0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hack&display=swap">
+</head>
+<body>
+  <!-- Password container -->
+  <div id="passwordContainer" class="container">
+    <h2>Unscramble the word to Continue:</h2>
+    <p id="scrambledWord"></p>
+    <input type="text" id="passwordInput" placeholder="Enter the unscrambled word">
+    <button id="submitPassword">Submit</button>
+    <p id="passwordHint"></p>
+  </div>
+
+  <!-- Main content -->
+  <div id="mainContent" class="container" style="display: none;">
+    <h1>
+      <a href="https://opensea.io/assets/ethereum/0xd07dc4262bcdbf85190c01c996b4c06a461d2430/527707/" target="_blank">
+        <img src="https://lh3.googleusercontent.com/taNvWC5Ltya4jegw4O0U3OXXn6lAqmUbc1yE7oTtBULGQa_fL8qazo6RXNFo5aaYvPKwk1CIfV8FqPNExLm4sBFMSkH1jvqsRNU=s400" height="50" width="50" alt="Logo Image">
+      </a>
+      <a href="https://sites.google.com/view/phoer20/phoer20-security">N1k⭕️las.Ξth</a>
+    </h1>
+    <h2>Aspiring Software Developer</h2>
+
+    <h3>
+      <div class="link-container">
+        <a href="https://www.credly.com/badges/e2b86f4c-2be7-4bcf-8689-0b6bb780c526/linked_in_profile" class="fas fa"><img src="https://images.credly.com/size/680x680/images/0bf0f2da-a699-4c82-82e2-56dcf1f2e1c7/image.png" alt="Cert Logo" width="20" height="20"><span> Cert</span></a>
+        <a href="https://github.com/phoer20" class="fab fa-github"><span> Github</span></a>
+        <a href="https://www.instagram.com/phoer20/" class="fab fa-instagram"><span> Instagram</span></a>
+        <a href="https://opensea.io/phoer20" class="fab fa"><img src="https://opensea.io/static/images/logos/opensea-logo.svg" height="20" width="20"><span> opensea</span></a>
+        <a href="https://www.rarible.com/phoer20" class="fas fa"><img src="https://cryptologos.cc/logos/rarible-rari-logo.png" height="20" width="20"><span> Rarible</span></a>
+        <a href="https://www.twitter.com/phoer20" class="fab fa-twitter"><span> X</span></a>
+      </div>
+    </h3>
+    <a href="https://opensea.io/assets/ethereum/0xd07dc4262bcdbf85190c01c996b4c06a461d2430/585685/" target="_blank">
+      <img src="https://lh3.googleusercontent.com/rmo-oBKGcjvQpuoeGy5ip9B2dLUHdPorjS1Ztm57H0te3aMefIAADHdQPzrIJ8RuSiQNFn4QhiOloPRsalzBliCDab-e4SSrBPs=s400" height="150" width="150" alt="Profile Image">
+    </a>
+    <textarea id="inputMessage" placeholder="Enter your message here"></textarea>
+    <input id="encryptionKey" type="number" placeholder="Enter encryption key">
+    <button onclick="encryptMessage()">Encrypt</button>
+    <button onclick="decryptMessage()">Decrypt</button>
+    <p id="outputMessage"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
